@@ -34,7 +34,7 @@ function flipCard({target: clickedCard}) {
         }
         cardTwo = clickedCard;
         disableDeck = true;
-        let cardOneImg = cardOne.querySelector(".back-view img").src,
+        let cardOneImg = cardOne.querySelector(".back-view img").src;
         cardTwoImg = cardTwo.querySelector(".back-view img").src;
         matchCards(cardOneImg, cardTwoImg);
     }
